@@ -13,5 +13,15 @@ namespace PowerXamarin
         {
             InitializeComponent();
         }
+
+        async void OnCall(object sender, EventArgs e)
+        {
+            pageLabel.Text = pageEntry.Text;
+        }
+
+        async void OnRedirect(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ContactFormPage());
+        }
     }
 }

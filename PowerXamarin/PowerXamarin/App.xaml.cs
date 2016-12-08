@@ -13,7 +13,9 @@ namespace PowerXamarin
         {
             InitializeComponent();
 
-            MainPage = new PowerXamarin.MainPage();
+            //MainPage = new PowerXamarin.MainPage();
+
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
