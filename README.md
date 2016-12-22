@@ -1,2 +1,2 @@
 # PowerXamarin
-Power Xamarin Setup
+THis is a Power Xamarin Project By EmpeRoar (code ripple)
